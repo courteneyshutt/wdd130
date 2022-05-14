@@ -4,7 +4,7 @@ div{
     text-align:center}
 nav a { 
     text-align: center;
-    color: #d9c2a3;
+    color: #ffffff;
     text-decoration: none;}
 #hero-msg h1 {
     text-align: center;}
@@ -21,7 +21,7 @@ main section {
     header {
         background-color:#2A2A72(20,30,13, .7);}
     nav a:hover {
-        background-color: #FFA400;
+        background-color: #000000;
         color: #d9c2a3}
     .book {
         background-color: #009FFD; 
@@ -32,14 +32,14 @@ main section {
         color: #d9c2a3;
         text-decoration: none;}
     .book:hover {
-        background-color: #FFA400;
+        background-color: #000000;
         color: #d9c2a3}
     .join:hover {
         background-color: #2A2A72; 
         color: #d9c2a3}
     #background {background-color:#009FFD(20,30,13, .7);}
 
-    .msg {background-color: #FFA400;}
+    .msg {background-color: #000000;}
 
     footer {background-color: #2A2A72;}
 
