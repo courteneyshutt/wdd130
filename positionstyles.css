@@ -42,7 +42,9 @@
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  margin-top: -50px;
+  margin-right: -50px; 
 } 
 .yellow2 {
   width: 100px; 
