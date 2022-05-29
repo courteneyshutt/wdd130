@@ -97,7 +97,7 @@
   /* This is the parent of the activity 4 boxes. */
   display: grid;
   grid-template-columns: 1fr;
-  height: 400px;
+  height: 300px;
 }
 .red4 {
   width: 50%; 
