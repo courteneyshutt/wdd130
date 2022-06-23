@@ -3,14 +3,16 @@ head {
         font-size: 2em;
         margin-top: 10px;
         width: 100%;}
-.home-card {margin: 200px 0;
-            float: left;
-            }
+.home-card {margin: 200px;
+        float: right;
+        }
+.logo {width: 1/9;}
 nav a { 
     text-align: center;
     color: #ffffff;
     text-decoration: none;
-    text-justify: center;}
+    text-justify: center;
+    margin-top: 0px;}
 
 #background {
         height: 725px;
@@ -21,13 +23,15 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 22px;
         margin: 0;
-        padding: 0;}
+        padding: 0;
+        text-justify: center;}
 h2 {margin: 0;}
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    justify-content: center;
+    width: 100%;
     background-color:#24247d;
-    width: 200%;
+    width: 100%;
     margin-top: 100px;
     }
 
@@ -43,7 +47,8 @@ main section img {box-sizing: border-box;}
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;}
+    box-shadow: 5px 5px 10px #6f7364;
+    text-justify: center;}
 
 footer {background-color: #2A2A72;
     padding: 25px 50px;
