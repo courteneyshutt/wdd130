@@ -3,9 +3,20 @@ head {
         font-size: 2em;
         margin-top: 10px;
         width: 100%;}
-.home-card {margin: 200px;
-        float: right;
-        }
+#first {
+    margin-left: 50%;
+}        
+#second {
+    margin-right: 50%;
+}
+.help{
+    justify-content: left;
+    float: right;
+}
+.hands{
+    justify-content: right;
+    float: left;
+}
 .logo {width: 1/9;}
 nav a { 
     text-align: center;
@@ -44,7 +55,6 @@ main section img {box-sizing: border-box;}
 .msg {background-color:#009FFD;
     font-family: Verdana;
     line-height: 1.5em;
-    padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
