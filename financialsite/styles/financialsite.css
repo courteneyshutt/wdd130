@@ -4,20 +4,44 @@ head {
         margin-top: 10px;
         width: 100%;}
 #first {
-    margin-left: 50%;
-}        
+    margin-left: 50%;}        
 #second {
-    margin-right: 50%;
-}
+    margin-right: 50%;}
+#third {
+    margin-left: 50%;}
+#fourth {
+    margin-right: 50%;}
+#fifth {
+    margin-left: 50%;}
+#sixth {
+    margin-right: 50%;}
 .help{
     justify-content: left;
-    float: right;
-}
+    margin-top: 0 auto;}
+
 .hands{
-    justify-content: right;
-    float: left;
-}
+    margin-left: 50%;
+    margin-top: 150px;}
+
+.taxdocs{
+    justify-content: left;
+    margin-top: 0 auto;}
+
+.taxtime{
+    margin-left: 50%;
+    margin-top: 150px;}
+
+.package{
+    justify-content: left;
+    margin-top: 0 auto;}
+
+.gifts{
+    margin-left: 50%;
+    margin-top: 150px;}
+
+
 .logo {width: 1/9;}
+
 nav a { 
     text-align: center;
     color: #ffffff;
