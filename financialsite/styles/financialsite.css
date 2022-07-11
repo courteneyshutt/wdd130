@@ -18,7 +18,7 @@ head {
 }
 .help{
     justify-content: left;
-    margin-top: 0 auto;}
+    margin-top: 0;}
 
 .hands{
     margin-left: 50%;
@@ -26,33 +26,35 @@ head {
 
 .taxdocs{
     justify-content: left;
-    margin-top: 0 auto;}
+    margin-top: 0;}
 
 .taxtime{
     margin-left: 50%;
-    margin-top: 150px;}
+    margin-top: 150px;
+    width: auto;
+    height: auto}
 
 .package{
     justify-content: left;
-    margin-top: 0 auto;}
+    margin-top: 0;}
 
 .gifts{
     margin-left: 50%;
     margin-top: 150px;}
 
 
-.logo {width: 1/9;}
+.logo {width: 100%;}
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #26e918;
     position: fixed;
     top: 0;
     width: 100%;}
   .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ddd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;}
@@ -63,9 +65,8 @@ head {
     margin-top: 30px;}
 nav a { 
     text-align: center;
-    color: #ffffff;
+    color: #0ceeee;
     text-decoration: none;
-    text-justify: center;
     margin-top: 0px;}
 
 #background {
@@ -73,12 +74,12 @@ nav a {
         grid-column: 1/11;
         grid-row: 4/9;}
 body {
-        background-color: #009FFD;
+        background-color: #0c56ea;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 22px;
         margin: 0;
         padding: 0;
-        text-justify: center;}
+        text-align: center;}
 h2 {margin: 0;}
 header {
     display: grid;
@@ -90,39 +91,39 @@ header {
     }
 
 #background {
-    background-color:#396E94;
+    background-color:#0c56ea;
     }
 
 
 main section img {box-sizing: border-box;}
-.msg {background-color:#009FFD;
+.msg {background-color:#0c56ea;
     font-family: Verdana;
     line-height: 1.5em;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
-    text-justify: center;}
+    text-align: center;}
 
-footer {background-color: #2A2A72;
+footer {background-color: #0c56ea;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;}
 
-.msg h2 {color: #2A2A72;}
+.msg h2 {color: #009FFD;}
 
 .msg p {color:#bbf323;
     font-size: .8em;
     padding-bottom: 15px;}
 
-footer h3 {color: #FFA400;
+footer h3 {color: #0ceeee;
     text-decoration: underline;}
-footer a {color: #2A2A72;
+footer a {color: #0c56ea;
     text-decoration: none;
     }
 footer a:hover {
-    color:#FFA400;}
+    color:#0ceeee;}
 
 .icon {width: 80px;
     padding-top: 10px;}
@@ -153,12 +154,9 @@ footer .social img {padding-top: 15px;}
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #26e918;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+
     #background {
         display: none;
     }
